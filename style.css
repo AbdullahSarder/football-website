@@ -1,0 +1,210 @@
+/* Common Property */
+body{
+    margin: 0;
+}
+a,
+.bt{
+    text-decoration: none;
+     color: #FFFFFF;
+}
+/* Common Property End*/
+
+/* Top Nav Bar Code Start */
+.container {
+    width:1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin: auto;
+
+}
+.Bar {
+    width:1440px;
+    display: flex;
+}
+
+#Navelement {
+     display: flex;
+     width:1160px;
+     height: 44px;
+     margin-left: 156px;
+     /* background-color: aqua; */
+     margin-top:42px;
+     align-items: center;
+}
+
+#links {
+    flex-grow: 1;
+    width: 587px;
+    /* background-color: rgb(146, 109, 54); */
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+
+}
+
+#login-button {
+    display: flex;
+    background-color:#E02C6D;
+    width: 123px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-sign-in-alt {
+    display: grid;
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top Nav Bar Code End */
+/* Banner Code Start */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 49px;
+}
+.btext{
+    margin-left: 156px;
+    width: 485px;
+    height: 230px;
+}
+.btext h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+.watchnow {
+    width: 168px;
+    height: 44px;
+    background-color:#E02C6D;
+    border:none;
+    color:white;
+}
+.bimage img{
+    width:556px;
+    height: 438px;
+}
+
+/* ----------------\
+Banner Code End
+ -------------------*/
+ .container1{
+    width:1440px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 70px;
+ }
+ .playerlist{
+     width:1440px;
+     display: grid;
+     justify-content: center;
+     grid-template-columns:repeat(3, 330px); 
+     row-gap: 27px;
+     column-gap: 30px;
+
+ }
+ .player{
+     background-color: #ffffff;
+     width:300px;
+     height: 474px;
+     padding: 15px;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     
+
+ }
+ /* .player img,h1,p{
+     padding: 15px;
+ } */
+ .player img{
+     width:300px;
+     height: 256px;
+ }
+ .player h1{
+     width: 300px;
+     font-weight: bold;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 28px;
+ }
+
+ /* All Hilights  Code Start */
+
+ .hilights{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-left: 156px;
+     margin-top: 165px;
+
+ }
+ .content1 {
+    width: 469px;
+    height: 120px;
+    margin-top: 59px;
+    font-family: Poppins;
+
+ }
+
+  .content1 h1{
+      font-style: normal;
+      font-size: 48px;
+      line-height: 60px;
+
+      color: #0A0826;
+
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 8px 0px;
+
+  }
+ .content2 img{
+    width:576px;
+    height: 427px;
+ }
+
+ .h-button{
+     width: 173px;
+     height: 44px;
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:#E02C6D;
+     
+ }
+ /* footer */
+ footer{
+     display: grid;
+     width:483.87px;
+     height: 213px;
+     justify-content: center;
+     /* background-color: #E02C6D; */
+ }
+ .logo img{
+     width: 483.87px;
+     height: 110px;
+ }
+ .socialicon,
+ .copyright {
+     display: flex;
+     justify-content: center;
+     gap: 14px;
+
+ }
+  .fab,.fas {
+      display: flex;
+      width: 32px;
+      height: 32px;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(176, 182, 182);
+      border-radius: 50%;
+  }
