@@ -624,4 +624,10 @@ Banner Code End
       .card{
           font-size: 14px;
       }
+      .opinfo p{
+          font-size: 16px;
+      }
+      .opcon label{
+          font-size: 14px;
+      }
   }
