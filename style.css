@@ -88,6 +88,24 @@ a,
     border:none;
     color:white;
 }
+
+
+.watchnow:hover::before {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px #ffee10;
+  }
+
+  .watchnow:hover {
+      color: #ffee10;
+      box-shadow: 0 0 7px #ffee10;
+      text-shadow: 0 0 57px #ffee10;
+      background-color: antiquewhite;
+      transform: scale(1.25);
+  }
+  .btext a:hover {
+      color: #3fafeb;
+      font-family: Poppins;
+  }
 .bimage img{
     width:556px;
     height: 438px;
@@ -214,8 +232,11 @@ Banner Code End
 
   /* Responsive Mobile Site */
 
-@media only screen and (max-width: 668px) {
+@media  (max-width: 668px) {
     /* Responsive for Header Code Start */
+    .main{
+        width: 360px;
+    }
     .Bar {
         display: none;
     }
@@ -224,8 +245,49 @@ Banner Code End
         display: block;
         color: #E02C6D;
         display: grid;
-        margin-left: 15px;
+        margin-left: 5px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .mobile_menu{
+        position:absolute
+    }
+    .mobile_menu ul li {
+        /* position: absolute; */
+        list-style-type: none;
+        display: block;
+        top:0
+    }
+    .mobicon{
+        color: #FFFFFF;
+    }
+    .mobicon:hover ~ .moblink {
+        display: block;
+        position: relative;
+        list-style-type: none;
+        display: block;
+        margin-top: -70px;
+        margin-left: -45px;
+        background-color: #E02C6D;
+        width: 260px;
+        height: 300px;
+        padding:50px;
+        transition: 0.9s;
+        transition-duration:1s;
+      
+    }
+    .mobicon:hover ~ .moblink ul li a{
+                 padding: 30px;
+                 margin-bottom: 30px;
+                 font-size: 100px;
+      
+    }
+    .moblink ul li a{
+         padding: 30px;
+         margin-bottom: 30px;
+         font-size: 100px;
+    }
+    .mobile_menu .moblink {
+        display: none;
     }
     .mobile_menu,
     .moblogbutton {
