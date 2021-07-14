@@ -207,7 +207,7 @@ Banner Code End
 
 }
 
-.content2 img {
+.content2 iframe {
     width: 567px;
     height: 427px;
 }
@@ -419,6 +419,7 @@ footer {
         /* background-color: aqua; */
         margin: auto;
         margin-top: 70px;
+        margin-bottom: 1px;
     }
 
     .playerlist {
@@ -431,81 +432,64 @@ footer {
 
     }
 
-    /* .player {
-          background-color: #ffffff;
-          width: 300px;
-          height: 474px;
-          padding: 15px;
-          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-
-
-      }
-
-      .player img {
-          width: 300px;
-          height: 256px;
-      }
-
-      .player h1 {
-          width: 300px;
-          font-weight: bold;
-          font-family: Poppins;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 28px;
-      } */
 
     /* Hilights Code Start 
       ---------------------*/
-    .hilights {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 15px;
-        margin-top: 30px;
-        row-gap: 90px;
+.hilights {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0px;
+    margin-top: 30px;
 
-    }
+}
 
-    .content1 {
-        width: 329px;
-        height: 299px;
-        margin-top: 59px;
-        font-family: Poppins;
+.content1 {
+    width: 329px;
+    height: 299px;
+     margin-top: 59px; 
+    font-family: Poppins;
+     margin-left: 15px; 
 
-    }
+}
 
-    .content1 h1 {
-        font-style: normal;
-        font-size: 30px;
-        line-height: 40px;
+.content1 h1 {
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #0A0826;
 
-        color: #0A0826;
+}
 
+.content2 iframe {
+    width: 328px;
+    height: 248px;
+    margin-left: 15px;
+    margin-top: 60px;
+}
 
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 8px 0px;
+.bg-text p {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+}
 
-    }
+.h-button {
+    width: 173px;
+    height: 44px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E02C6D;
 
-    .content2 img {
-        width: 328px;
-        height: 248px;
-    }
+}
+.h-button a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
 
-    .h-button {
-        width: 173px;
-        height: 44px;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #E02C6D;
-        margin-bottom: 71px;
-
-    }
-
+}
     /* Hilights Code End 
       ---------------------*/
 
@@ -696,4 +680,17 @@ footer {
     .opcon label {
         font-size: 14px;
     }
+}
+
+
+/*--------------
+---- Watch Now Code 
+------------------------------ */
+.container-fluid1{
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 30px;
 }
