@@ -21,7 +21,9 @@ a,
     width:1440px;
     display: flex;
 }
-
+.mobilenav{
+    display: none;
+}
 #Navelement {
      display: flex;
      width:1160px;
@@ -199,7 +201,8 @@ Banner Code End
      gap: 14px;
 
  }
-  .fab,.fas {
+  .socialicon .fab,
+  .socialicon .fas {
       display: flex;
       width: 32px;
       height: 32px;
@@ -213,33 +216,41 @@ Banner Code End
 
 @media only screen and (max-width: 668px) {
     /* Responsive for Header Code Start */
-    .Bar{
+    .Bar {
         display: none;
     }
+    /* Mobile Nav */
+    .mobilenav {
+        display: block;
+        color: #E02C6D;
+        display: grid;
+        margin-left: 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mobile_menu,
+    .moblogbutton {
+        /* padding-top: 36px; */
+        margin-top: 36px;
+        display: flex;
+        align-items: center;
+    }
+    .moblogbutton {
+        /* margin-left: 180px; */
+        width: 89.98px;
+        height: 32.88px;
+        margin-left: 215px;
+        margin-right: 21px;
+        background: #E02C6D;
+        justify-content: center;
+    }
+      /* Mobile Nav */
     .container {
         width: 360px;
         height: 695px;
         background-color: #2D25A0;
 
     }
-    #Navelement {
-        display: flex;
-        width: 1160px;
-        height: 44px;
-        margin-left: 156px;
-        margin-top: 36px;
-        align-items: center;
-    }
-
-    #links {
-        flex-grow: 1;
-        width: 587px;
-        /* background-color: rgb(146, 109, 54); */
-        flex-wrap: wrap;
-        display: flex;
-        gap: 30px;
-
-    }
+    
 
     #login-button {
         display: flex;
@@ -389,6 +400,32 @@ Banner Code End
       }
       /* Hilights Code End 
       ---------------------*/
+
+
+      /* Footer Code Start */
+      .logo img {
+          width: 271px;
+          height: 63px;
+      }
+
+      .socialicon,
+      .copyright {
+          display: flex;
+          justify-content: center;
+          gap: 14px;
+
+      }
+
+      .socialicon .fab,
+      .socialicon .fas {
+          display: flex;
+          width: 32px;
+          height: 32px;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(176, 182, 182);
+          border-radius: 50%;
+      }
 
   }
   
