@@ -232,7 +232,37 @@ Banner Code End
     font-size: 24px;
 
 }
+/* Fixture Start */
+.fixture{
+    width:1100px;
+    margin: auto;
+    text-align: center;
 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    align-items: center;
+}
+.Home,
+.Away {
+    width: 35%;
+    line-height: 0%;
+}
+.Home img,
+.Away img{
+    width:30px;
+}
+.Home,
+.Away,
+.Time {
+    height: 10px;
+}
+/* Fixture End */
 /* footer */
 footer {
     display: grid;
@@ -531,9 +561,45 @@ footer {
         border-radius: 50%;
     }
 
+    /* Fixture  */
+    .fixture {
+        width: 370px;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .Home,
+    .Away {
+        width: 35%;
+        line-height: 0%;
+    }
+
+    .Home img,
+    .Away img {
+        width: 30px;
+    }
+
+    .Home,
+    .Away,
+    .Time {
+        height: 10px;
+    }
+
 }
 
-/* Responsive Mobile Site */
+/* Responsive Mobile Site End*/
 
 
 /* pLAYER sTATS */
