@@ -773,5 +773,22 @@ footer {
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    margin: 30px;
+}
+.container-fluid1 iframe {
+    width: 530px;
+    height: 370px;
+}
+@media (max-width: 668px) {
+    .container-fluid1 {
+        width: 370px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .container-fluid1 iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+
 }
