@@ -2,6 +2,9 @@
 body{
     margin: 0;
 }
+*{
+    font-family: Poppins;
+}
 a,
 .bt{
     text-decoration: none;
@@ -418,7 +421,7 @@ Banner Code End
           grid-template-columns: repeat(1, 1fr);
           margin-left: 15px;
           margin-top: 30px;
-          row-gap: 29px;
+          row-gap: 90px;
 
       }
 
@@ -458,6 +461,7 @@ Banner Code End
           align-items: center;
           justify-content: center;
           background-color: #E02C6D;
+          margin-bottom: 71px;
 
       }
       /* Hilights Code End 
@@ -492,3 +496,132 @@ Banner Code End
   }
   
   /* Responsive Mobile Site */
+
+
+  /* pLAYER sTATS */
+  .playerstats{ 
+      margin-top: 30px;
+  }
+  .containerl{
+      width:1440px;
+      display: grid;
+      justify-content: center;
+      margin: auto;
+  }
+
+  .coplogo{
+      display:grid;
+      grid-template-columns: 60px 1fr;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 30px;
+  }
+  .div1 img{
+      width:50px
+  }
+  .div2 {
+      font-size: 20px;
+      line-height: 1px;
+      color:black;
+  }
+  .coplnews{
+      text-align: center;
+  }
+  .stats {
+      width: 1300px;
+      display: grid;
+      grid-template-columns: repeat(3 , 330px);
+      justify-content: center;
+      margin: auto;
+      column-gap: 25px;
+      row-gap: 25px;
+  }
+  .card h1,
+  .card p,
+   .card label {
+     font-family: Poppins;
+
+  }
+  .card{
+      width:330px;
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      border:3px solid white;
+       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+       background-color: #cecece;
+       /* padding: 5px; */
+  }
+  .card h1{
+      margin-left: 20px;
+  }
+  .pdet{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 20px;
+  }
+  .piinfo{
+      line-height: 10px;
+  }
+  .piinfo img,
+  .opcon img {
+      width:20px;
+      height:15px
+  }
+  .pimg img{
+      width:100px;
+  }
+  .other-pl{
+      display:grid;
+      grid-template-columns: 50px 230px 40px;
+      background-color: #ffffff;
+      align-items: center;
+      height: 60px;
+      background-color: rgb(255, 255, 255);
+  }
+  /* .other-pl2{
+      background-color: rgb(238, 238, 238);
+  } */
+  .opimg img{
+      display: grid;
+      width:50px;
+      border-radius: 50%;
+      margin-left: 10px;
+      align-items: center;
+  }
+  .opinfo{
+      display: grid;
+      margin-left: 20px;
+      line-height: 0px;
+      margin-top: -10px;
+  }
+  .opinfo p{
+      line-height: 1px;
+  }
+  .piinfo span{
+      margin-left: 5px;
+  }
+  .opcon{
+      display: flex;
+     align-items: center;
+     column-gap: 7px;
+  }
+  @media (max-width: 668px){
+       .containerl {
+           width: 360px;
+           /* background-color: aqua; */
+           margin: auto;
+           margin-top: 70px;
+       }
+      .stats {
+          width: 340px;
+          display: grid;
+          grid-template-columns: repeat(1, 330px);
+          row-gap: 25px;
+      }
+      *{
+          font-size: 20px;
+      }
+      .card{
+          font-size: 14px;
+      }
+  }
